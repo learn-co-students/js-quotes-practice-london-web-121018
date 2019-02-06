@@ -1,3 +1,17 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #quote-list {
   padding: 20px;
+}
+
+body #quote-list .quote-card .blockquote .hide {
+  display: none;
+}
+
+.blockquote [type='textarea'] {
+  width: 100%;
+  height: 200%;
 }
